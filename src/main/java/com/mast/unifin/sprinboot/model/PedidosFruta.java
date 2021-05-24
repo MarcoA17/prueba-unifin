@@ -37,6 +37,12 @@ public class PedidosFruta implements Serializable {
 
 	private boolean estatus;
 
+	
+	
+	public PedidosFruta() {
+		super();
+	}
+
 	public PedidosFruta(Long id, String nombre, double total,
 			boolean estatus ) {
 		super();

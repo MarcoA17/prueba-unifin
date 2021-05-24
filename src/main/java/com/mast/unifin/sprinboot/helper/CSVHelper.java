@@ -51,24 +51,4 @@ public class CSVHelper {
 			throw new RuntimeException("fail to parse CSV file: " + e.getMessage());
 		}
 	}
-
-//	public static ByteArrayInputStream tutorialsToCSV(List<DeveloperTutorial> developerTutorialList) {
-//		final CSVFormat format = CSVFormat.DEFAULT.withQuoteMode(QuoteMode.MINIMAL);
-//
-//		try (ByteArrayOutputStream out = new ByteArrayOutputStream();
-//				CSVPrinter csvPrinter = new CSVPrinter(new PrintWriter(out), format);) {
-//			for (DeveloperTutorial developerTutorial : developerTutorialList) {
-//				List<String> data = Arrays.asList(String.valueOf(developerTutorial.getId()),
-//						developerTutorial.getTitle(), developerTutorial.getDescription(),
-//						String.valueOf(developerTutorial.isPublished()));
-//
-//				csvPrinter.printRecord(data);
-//			}
-//
-//			csvPrinter.flush();
-//			return new ByteArrayInputStream(out.toByteArray());
-//		} catch (IOException e) {
-//			throw new RuntimeException("fail to import data to CSV file: " + e.getMessage());
-//		}
-//	}
 }
