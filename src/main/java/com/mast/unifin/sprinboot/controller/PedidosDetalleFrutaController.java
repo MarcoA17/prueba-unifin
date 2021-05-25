@@ -16,7 +16,7 @@ import com.mast.unifin.sprinboot.model.PedidosDetalleFruta;
 import com.mast.unifin.sprinboot.service.PedidosDetalleFrutaService;
 
 @RestController
-@RequestMapping("/api/detalle")
+@RequestMapping("/api/detallefruta")
 public class PedidosDetalleFrutaController {
 
 	@Autowired

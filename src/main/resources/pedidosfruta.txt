@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Manzana",
+        "total": 20.0,
+        "fechaModificacion": "2021-01-15",
+        "estatus": true
+    },
+    {
+        "id": 2,
+        "nombre": "Pera",
+        "total": 10.0,
+        "fechaModificacion": "2021-01-15",
+        "estatus": true
+    },
+    {
+        "id": 3,
+        "nombre": "Mango",
+        "total": 30.0,
+        "fechaModificacion": "2021-01-15",
+        "estatus": false
+    },
+    {
+        "id": 4,
+        "nombre": "Fresa",
+        "total": 5.0,
+        "fechaModificacion": "2021-01-15",
+        "estatus": true
+    },
+    {
+        "id": 5,
+        "nombre": "Melon",
+        "total": 40.0,
+        "fechaModificacion": "2021-01-15",
+        "estatus": false
+    }
+]

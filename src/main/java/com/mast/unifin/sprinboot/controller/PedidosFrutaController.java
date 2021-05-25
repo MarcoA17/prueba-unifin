@@ -21,9 +21,16 @@ public class PedidosFrutaController {
 
 	@Autowired
 	private PedidosFrutaService pedidosFrutaService;
+	
+	
+
+	public PedidosFrutaController(PedidosFrutaService pedidosFrutaService) {
+		super();
+		this.pedidosFrutaService = pedidosFrutaService;
+	}
 
 	@GetMapping
-	public ResponseEntity<?> listarPediosw() {
+	public ResponseEntity<?> listarPediosFruta() {
 		return ResponseEntity.ok().body(pedidosFrutaService.findAll());
 	}
 
@@ -38,8 +45,8 @@ public class PedidosFrutaController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<?> crearPedido(@RequestBody PedidosFruta pedidosw){
-		return ResponseEntity.status(HttpStatus.CREATED).body(pedidosFrutaService.save(pedidosw));
+	public ResponseEntity<?> crearPedido(@RequestBody PedidosFruta pedidosFruta){
+		return ResponseEntity.status(HttpStatus.CREATED).body(pedidosFrutaService.save(pedidosFruta));
 	}
 	
 	@PutMapping("{id}")

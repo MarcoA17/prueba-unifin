@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "clave": "321",
+        "cantidad": 2.00,
+        "precio": 20.00,
+        "pedidosFruta": {
+            "id": 1,
+            "nombre": "Manzana",
+            "total": 40.0,
+            "fechaModificacion": "2021-01-15",
+            "estatus": true
+        }
+    },
+    {
+        "id": 2,
+        "clave": "123",
+        "cantidad": 3.00,
+        "precio": 12.00,
+        "pedidosFruta": {
+            "id": 2,
+            "nombre": "Pera",
+            "total": 36.0,
+            "fechaModificacion": "2021-01-15",
+            "estatus": true
+        }
+    },
+    {
+        "id": 3,
+        "clave": "345",
+        "cantidad": 3.00,
+        "precio": 12.00,
+        "pedidosFruta": {
+            "id": 3,
+            "nombre": "Mango",
+            "total": 36.0,
+            "fechaModificacion": "2021-01-15",
+            "estatus": false
+        }
+    },
+    {
+        "id": 4,
+        "clave": "789",
+        "cantidad": 2.00,
+        "precio": 21.00,
+        "pedidosFruta": {
+            "id": 4,
+            "nombre": "Fresa",
+            "total": 42.0,
+            "fechaModificacion": "2021-01-15",
+            "estatus": true
+        }
+    },
+    {
+        "id": 5,
+        "clave": "987",
+        "cantidad": 1.00,
+        "precio": 22.00,
+        "pedidosFruta": {
+            "id": 5,
+            "nombre": "Melon",
+            "total": 22.0,
+            "fechaModificacion": "2021-01-15",
+            "estatus": false
+        }
+    }
+]
